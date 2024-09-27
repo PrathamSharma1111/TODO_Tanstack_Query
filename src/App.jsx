@@ -60,8 +60,8 @@ function App() {
      deleteTodoMutation.mutate(id);
   };
 
-  if (isLoading) return <p>Loading...</p>;
-  if (error) return <p>Error loading todos</p>;
+  // if (isLoading) return <p>Loading...</p>;
+  // if (error) return <p>Error loading todos</p>;
 
   return (
     <div className='bg-black h-[100vh] flex items-center justify-center'>
